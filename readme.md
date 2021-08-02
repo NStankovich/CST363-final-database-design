@@ -16,7 +16,21 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/raymondshum/cst-363-final-database-design)](https://replit.com/@raymondshum/cst-363-final-database-design)
 
-The database for this project has been migrated to Heroku. The Spring Boot controller is hosted on Replit.
+The database for this project has been migrated to Heroku. The Spring Boot controller is hosted on Replit. However, it will take some time to start up on Replit (An error message will display until it does).
+
+---
+
+To run locally, you would need to perform the following:
+
+![ins1](/documentation/img/ins1.JPG)
+
+1. Generate an application.properties file pointing to a local MySQL database in _/src/main/resources/_
+
+2. Use the [MySQL Create Table Statements & Sample Data](./documentation/ShumStankovich_Project2_MySQL.sql) script to populate the database.
+
+3. Enter the following command (bash) from the root directory of the project folder.
+
+    <code>./mvnw spring-boot:run</code>
 
 ---
 
