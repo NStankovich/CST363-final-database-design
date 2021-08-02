@@ -24,7 +24,9 @@ To run locally, you would need to perform the following:
 
 ![ins1](/documentation/img/ins1.JPG)
 
-1. Generate an application.properties file pointing to a local MySQL database in _/src/main/resources/_
+1. Generate an application.properties file pointing to a local MySQL database in _/src/main/resources/_, including the jdbc driver in the URL path:
+
+    <code>jdbc:mysql://URL</code>
 
 2. Use the [MySQL Create Table Statements & Sample Data](./documentation/ShumStankovich_Project2_MySQL.sql) script to populate the database.
 
