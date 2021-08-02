@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link href="/display.css" rel="stylesheet">
-</head>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="/display.css" rel="stylesheet" />
+  </head>
 
-<body>
-      
-      <h1>Drug System</h1>
-      
-      <p>Click on a choice below.</p>
- 
-      <section>
-      <p><a href="/prescription/new">Write a new prescription (for Doctors only) </a></p>
-      
-      <p><a href="/prescription/fill">Request a prescription be filled (for Patients only) </a></p>
-      
-      <p><a href="/pharmacy_form.html">Report on drug usage (Pharmacists only) </a></p>
-      
-      <p><a href="/fda_form.html">FDA reporting (FDA only) </a></p>
-      
+  <body>
+    <header class="navbar navbar-dark bg-dark">
+      <a class="active" href="/">Home</a>
+      <a class="" href="/prescription/new">Write Prescription </a>
+      <a class="" href="/prescription/fill">Request Prescription</a>
+      <a class="" href="/pharmacy_form.html">Drug Report</a>
+      <a class="" href="/fda_form.html">FDA Report</a>
+    </header>
+    <main>
+      <section class="content border border-dark card p-5">
+        <h1 class="card-title">Drug System</h1>
+        <p class="card-subtitle">Click on a choice below.</p>
+        <hr />
+        <p>
+          <a href="/prescription/new"
+            >Write a new prescription (for Doctors only)
+          </a>
+        </p>
+        <p>
+          <a href="/prescription/fill"
+            >Request a prescription be filled (for Patients only)
+          </a>
+        </p>
+        <p>
+          <a href="/pharmacy_form.html"
+            >Report on drug usage (Pharmacists only)
+          </a>
+        </p>
+        <p><a href="/fda_form.html">FDA reporting (FDA only) </a></p>
       </section>
- </body>
+    </main>
+    <footer class="bg-dark">
+      <img src="/csumb-logo-white-trans.png" />
+    </footer>
+  </body>
 </html>
