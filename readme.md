@@ -16,7 +16,7 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/raymondshum/cst-363-final-database-design)](https://replit.com/@raymondshum/cst-363-final-database-design)
 
-The database for this project has been migrated to Heroku. The Spring Boot controller is hosted on Replit. However, it will take some time to start up on Replit (An error message will display until it does).
+The database for this project has been migrated to Heroku. The Spring Boot controller is hosted on Replit. However, it will take some time to start up on Replit (An error message will display until it does). I recommend running this project locally if possible.
 
 ---
 
