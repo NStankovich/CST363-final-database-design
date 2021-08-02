@@ -14,7 +14,18 @@
 
 # Database Design and Implementation Project
 
+[![Run on Repl.it](https://repl.it/badge/github/raymondshum/cst-363-final-database-design)](https://replit.com/@raymondshum/cst-363-final-database-design)
+
+The database for this project has been migrated to Heroku. The Spring Boot controller is hosted on Replit.
+
+---
+
 ## Table of Contents
+
+1. [Overview](#overview)
+1. [Resources](#resources)
+1. [ER Diagrams](#er-diagrams)
+1. [Screen Shots](#screen-shots)
 
 ---
 
@@ -30,6 +41,8 @@
 
 > In this phase, we implented a simple web interface over our database, using Java and Thymeleaf in Spring Boot. After the project's completion, I applied additional styling (which is why diagrams will differ from front-end of the hosted link).
 
+[Return to Top](#table-of-contents)
+
 ---
 
 ## Resources
@@ -39,6 +52,8 @@
 
 > Please take a look at our project report for the full discussion on our design considerations and implementation, as well as screenshots and details concerning validation.
 
+[Return to Top](#table-of-contents)
+
 ---
 
 ## ER Diagrams
@@ -46,6 +61,8 @@
 ![ER1](./documentation/img/er1.JPG)
 
 ![ER2](./documentation/img/er2.JPG)
+
+[Return to Top](#table-of-contents)
 
 ---
 
@@ -56,3 +73,5 @@
 ![sample](./documentation/img/sample2.JPG)
 
 ![sample](./documentation/img/sample3.JPG)
+
+[Return to Top](#table-of-contents)
