@@ -55,7 +55,7 @@ To run locally, you would need to perform the following:
 
 ### _Phase 2_
 
-> In this phase, we implented a simple web interface over our database, using Java and Thymeleaf in Spring Boot. After the project's completion, I applied additional styling (which is why diagrams will differ from front-end of the hosted link).
+> In this phase, we implemented a simple web interface over our database, using Java and Thymeleaf in Spring Boot. After the project's completion, I applied additional styling (which is why diagrams will differ from front-end of the hosted link).
 
 [Return to Top](#table-of-contents)
 
